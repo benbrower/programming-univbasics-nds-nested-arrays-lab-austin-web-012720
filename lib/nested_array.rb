@@ -25,6 +25,7 @@ def assembled_matrix
     ORGANIC_PRODUCE,
     CONVENTIONAL_PRODUCE
   ]
+  produce
 end
 
 def sorted_matrix
@@ -43,3 +44,4 @@ def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
 end
+
